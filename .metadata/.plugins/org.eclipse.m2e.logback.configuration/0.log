@@ -740,3 +740,5 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.redquark:
 2020-04-22 21:31:12,682 [Worker-26: Launching LTL_Project] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PautoInstallPackage -B clean install
 2020-04-22 21:33:32,873 [Worker-28: Launching LTL_Project] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\LTL\AEM\ltl
 2020-04-22 21:33:32,873 [Worker-28: Launching LTL_Project] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PautoInstallPackage -B clean install
+2020-04-22 22:00:28,403 [Worker-30: Launching LTL_Project] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\LTL\AEM\ltl
+2020-04-22 22:00:28,404 [Worker-30: Launching LTL_Project] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PautoInstallPackage -B clean install

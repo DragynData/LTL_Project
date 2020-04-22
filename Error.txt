@@ -1,0 +1,27 @@
+Error when getting to the step
+Installing bundle in AEM using eclipse
+
+[INFO] Scanning for projects...
+[WARNING] The POM for com.day.jcr.vault:content-package-maven-plugin:jar:0.5.1 is missing, no dependency information available
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] Unresolveable build extension: Plugin com.day.jcr.vault:content-package-maven-plugin:0.5.1 or one of its dependencies could not be resolved: Failure to find com.day.jcr.vault:content-package-maven-plugin:jar:0.5.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced @ 
+[ERROR] Unknown packaging: content-package @ line 34, column 16
+[ERROR] Unresolveable build extension: Plugin com.day.jcr.vault:content-package-maven-plugin:0.5.1 or one of its dependencies could not be resolved: Failure to find com.day.jcr.vault:content-package-maven-plugin:jar:0.5.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced @ 
+[ERROR] Unknown packaging: content-package @ line 34, column 16
+ @ 
+[ERROR] The build could not read 2 projects -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.redquark:ltl.ui.apps:0.0.1-SNAPSHOT (D:\LTL\AEM\ltl\ui.apps\pom.xml) has 2 errors
+[ERROR]     Unresolveable build extension: Plugin com.day.jcr.vault:content-package-maven-plugin:0.5.1 or one of its dependencies could not be resolved: Failure to find com.day.jcr.vault:content-package-maven-plugin:jar:0.5.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 2]
+[ERROR]     Unknown packaging: content-package @ line 34, column 16
+[ERROR]   
+[ERROR]   The project org.redquark:ltl.ui.content:0.0.1-SNAPSHOT (D:\LTL\AEM\ltl\ui.content\pom.xml) has 2 errors
+[ERROR]     Unresolveable build extension: Plugin com.day.jcr.vault:content-package-maven-plugin:0.5.1 or one of its dependencies could not be resolved: Failure to find com.day.jcr.vault:content-package-maven-plugin:jar:0.5.1 in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 2]
+[ERROR]     Unknown packaging: content-package @ line 34, column 16
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/PluginManagerException
