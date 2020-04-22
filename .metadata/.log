@@ -905,3 +905,188 @@ Contains: Missing org.redquark:ltl.core:jar:sources:0.0.1-SNAPSHOT
 
 !ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 21:25:22.247
 !MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2020-04-22 22:04:45.498
+!MESSAGE Unable to connect to repository http://www.eclipsecolorthemes.org/plugin/content.xml
+!STACK 0
+org.apache.http.conn.HttpHostConnectException: Connect to www.eclipsecolorthemes.org:80 [www.eclipsecolorthemes.org/54.93.253.88] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:246)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 11 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:09.690
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:09.741
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:09.789
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:09.821
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:09.912
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:09.977
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.025
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.095
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.121
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.189
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.251
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.322
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.385
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.434
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.465
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.526
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.578
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.650
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.685
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.737
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.848
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.881
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:10.993
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:11.012
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:11.083
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:09:11.093
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.172
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.201
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.217
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.249
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.301
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.333
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.364
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.402
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.417
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.464
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.502
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.564
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.602
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.649
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.665
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.702
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.734
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.780
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.803
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.849
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.936
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:19.965
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:20.044
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:20.065
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:20.110
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-04-22 22:10:20.126
+!MESSAGE ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
