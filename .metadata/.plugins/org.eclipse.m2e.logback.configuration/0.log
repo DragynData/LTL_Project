@@ -798,3 +798,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.redquark:
 2020-04-22 22:10:20,126 [Worker-43: Starting Adobe Experience Manager at localhost] ERROR o.a.j.j.h.ChildNodeEntriesImpl - ChildInfo iterator contains multiple entries with the same name|index or uniqueID -> ignore ChildNodeInfo.
 2020-04-22 22:10:48,669 [Worker-46: Launching LTL_Project] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\LTL\AEM\ltl
 2020-04-22 22:10:48,669 [Worker-46: Launching LTL_Project] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -PautoInstallPackage -B clean install
+2020-04-25 14:28:23,973 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
